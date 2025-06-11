@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNS Live-Dashboard</title>
+    <style>
+        /* Simple styling für bessere Lesbarkeit */
+        body { font-family: sans-serif; background-color: #f4f4f9; color: #333; padding: 20px; }
+        .card { background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px; max-width: 400px; }
+        h1, h2 { color: #0056b3; }
+        .sensor-data { font-size: 1.2em; margin: 10px 0; }
+        .sensor-data span { font-weight: bold; color: #d9534f; }
+    </style>
+</head>
+<body>
+
+    <h1>Unified Namespace - Live Daten</h1>
+
+    <div class="card">
+        <h2>Fräsmaschine 01</h2>
+        <div class="sensor-data">Temperatur: <span id="temp-value">Warte auf Daten...</span> °C</div>
+        <div class="sensor-data">Druck: <span id="pressure-value">Warte auf Daten...</span> bar</div>
+        <div class="sensor-data">Vibration: <span id="vibration-value">Warte auf Daten...</span> mm/s</div>
+        <div class="sensor-data">Status: <span id="status-value">Warte auf Daten...</span></div>
+        <div class="sensor-data">Teilezähler: <span id="counter-value">Warte auf Daten...</span> Stk</div>
+    </div>
+
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
