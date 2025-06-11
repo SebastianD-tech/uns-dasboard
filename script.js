@@ -3,7 +3,7 @@ console.log("Dashboard-Skript geladen.");
 // WICHTIG: Tragen Sie hier Ihre HiveMQ Cloud-Daten ein!
 const options = {
   host: 'e511a0ad851e4fdaafd32f113a294998.s1.eu.hivemq.cloud', // URL von Ihrer HiveMQ-Seite
-  port: 8884,                                  // WSS Port von Ihrer HiveMQ-Seite
+  port: 8883,                                  // WSS Port von Ihrer HiveMQ-Seite
   protocol: 'wss',                             // 'wss' steht für sichere WebSockets
   username: 'UNSTester2',           // Username aus dem Access Management
   password: 'UNSTester!33'      // Passwort aus dem Access Management
