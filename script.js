@@ -2,11 +2,11 @@ console.log("Dashboard-Skript geladen.");
 
 // WICHTIG: Tragen Sie hier Ihre HiveMQ Cloud-Daten ein!
 const options = {
-  Host: 'e511a0ad851e4fdaafd32f113a294998.s1.eu.hivemq.cloud', // URL von Ihrer HiveMQ-Seite
+  Host: "e511a0ad851e4fdaafd32f113a294998.s1.eu.hivemq.cloud", // URL von Ihrer HiveMQ-Seite
   Port: 8884,                                  // WSS Port von Ihrer HiveMQ-Seite
-  protocol: 'wss',                             // 'wss' steht für sichere WebSockets
-  Username: 'Dashi2',           // Username aus dem Access Management
-  Password: 'Sdfcioi88'      // Passwort aus dem Access Management
+  protocol: "wss",                             // 'wss' steht für sichere WebSockets
+  Username: "Dashi2",           // Username aus dem Access Management
+  Password: "Sdfcioi88"      // Passwort aus dem Access Management
 };
 
 // Verbindet sich mit dem MQTT Broker
